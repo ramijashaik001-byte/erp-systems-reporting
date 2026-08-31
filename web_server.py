@@ -13,7 +13,7 @@ from erp.core.db import db_instance
 from erp.core.logger import audit_log
 from erp.modules.financial_reporting.category_reporting import CategoryReporter
 
-PORT = 8000
+PORT = 8006
 
 HTML_DASHBOARD = """<!DOCTYPE html>
 <html lang="en">
