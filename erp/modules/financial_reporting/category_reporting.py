@@ -384,3 +384,5 @@ class CategoryReporter:
         ]
         for idx, vendor in enumerate(mock_vendors):
             db_instance.insert("accounts_payable_vendor", f"mock_vendor_{idx}", vendor)
+
+# Supporting additional non-operating revenue subcategories
