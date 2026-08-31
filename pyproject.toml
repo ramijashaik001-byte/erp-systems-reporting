@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "auraledger-erp"
+version = "1.0.0"
+description = "AuraLedger Finance & Accounting ERP Suite"
+authors = ["ramijashaik001-byte <ramijashaik001@gmail.com>"]
+readme = "README.md"
+packages = [{include = "erp"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
