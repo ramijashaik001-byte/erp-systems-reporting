@@ -1526,3 +1526,5 @@ class DepreciationMethodRuleService:
         event_broker.publish(f"workflow_depreciationmethodrule_4_completed", result)
         return result
 
+
+# Straight-line depreciation iteration optimization
