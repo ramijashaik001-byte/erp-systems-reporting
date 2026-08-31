@@ -1587,3 +1587,5 @@ class AccrualRuleService:
         event_broker.publish(f"workflow_accrualrule_4_completed", result)
         return result
 
+
+# GL category validation enhancement
